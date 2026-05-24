@@ -1,17 +1,63 @@
-Inicializacion del proyecto
-==============================
+# Sistema de Gestion de Procesos
 
-Requisitos
+Proyecto en C++ que simula la administracion de procesos de un sistema operativo usando una lista enlazada, una cola de prioridad y una pila de memoria.
+
+## Integrantes
+
+- Ordoñez Molinero Hans Anderson
+- George Bill Valdivieso Tomas
+- Casavilca Paucar Joel Walter
+- De la cruz Santana Jhon Kenyo
+
+## Distribucion del trabajo
+
+- George Bill Valdivieso Tomas: Capitulo 1, analisis del problema.
+- Casavilca Paucar Joel Walter: Capitulo 2, diseno de la solucion.
+- Ordoñez Molinero Hans Anderson: Manual de usuario.
+- De la cruz Santana Jhon Kenyo: Codigo, integracion final y README.
+
+Todo el equipo apoyo en revision, pruebas y validacion del sistema.
+
+## Estructura del proyecto
+
+```text
+├── src/
+│   ├── main.cpp
+│   ├── ListaProcesos.cpp
+│   ├── ColaProcesos.cpp
+│   ├── PilaMemoria.cpp
+│   └── Proceso.h
+├── Documentación/
+└── README.md
+```
+
+## Funcionalidades
+
+- Registrar, buscar, modificar y eliminar procesos.
+- Mostrar la lista de procesos y la cola de ejecucion.
+- Ejecutar procesos segun prioridad.
+- Gestionar memoria con una pila de bloques.
+- Guardar y cargar informacion desde `procesos.txt`.
+
+## Requisitos
+
 - g++ o Dev C++ 5.11
 
-Compilar y ejecutar con g++
-1. Abrir una terminal en la carpeta del proyecto.
-2. Compilar: g++ src/*.cpp -o sistema
-3. Ejecutar: ./sistema
+## Compilacion y ejecucion
 
-Compilar y ejecutar en Dev C++
+### Con g++
+
+```bash
+g++ src/*.cpp -o sistema_procesos
+./sistema_procesos
+```
+
+### En Dev C++
+
 1. Crear un proyecto de consola en C++.
-2. Agregar los archivos de la carpeta src.
+2. Agregar todos los archivos de la carpeta `src`.
 3. Compilar y ejecutar.
 
-El archivo pacientes.txt se crea/actualiza al salir del programa.
+## Nota
+
+El archivo `procesos.txt` se crea o actualiza al salir del programa.
