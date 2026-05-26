@@ -12,9 +12,9 @@ Proyecto en C++ que simula la administracion de procesos de un sistema operativo
 ## Distribucion del trabajo
 
 - George Bill Valdivieso Tomas: Capitulo 1, analisis del problema.
-- Casavilca Paucar Joel Walter: Capitulo 2, diseno de la solucion.
-- Ordoñez Molinero Hans Anderson: Manual de usuario.
-- De la cruz Santana Jhon Kenyo: Codigo, integracion final y README.
+- De la cruz Santana Jhon Kenyo: Capitulo 2, diseno de la solucion.
+- Casavilca Paucar Joel Walter: Manual de usuario.
+- Ordoñez Molinero Hans Anderson: Codigo, integracion final y README.
 
 Todo el equipo apoyo en revision, pruebas y validacion del sistema.
 
