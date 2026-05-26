@@ -61,3 +61,10 @@ g++ src/*.cpp -o sistema_procesos
 ## Nota
 
 El archivo `procesos.txt` se crea o actualiza al salir del programa.
+
+## Notas sobre el Entorno de Desarrollo y Compilación
+
+El proyecto fue diseñado para ser multiplataforma, garantizando la compatibilidad entre diferentes sistemas operativos utilizados por los integrantes del equipo:
+
+* **Uso de Dev-C++:** Se incluyó como opción de desarrollo y compilación para facilitar el trabajo en entornos **Windows**, aprovechando su interfaz gráfica para la gestión de proyectos.
+* **Uso de g++ (GCC):** Su inclusión fue fundamental debido a que uno de los integrantes del equipo desarrolla en un entorno **Linux**. Dado que Dev-C++ no cuenta con soporte nativo para Linux, el uso de la terminal con `g++` permitió compilar y ejecutar el código de manera eficiente mediante comandos, asegurando que todo el equipo pudiera trabajar, probar y validar el sistema sin barreras de software.
